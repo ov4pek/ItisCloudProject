@@ -1,0 +1,26 @@
+{
+    "name": "root/itiscloudproject",
+    "authors": [
+        {
+            "name": "ov4pek",
+            "email": "danilevgenyevi4@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0",
+        "twig/twig": "^2.4",
+        "symfony/twig-bridge": "^3.3",
+        "symfony/translation": "^3.3",
+        "symfony/form": "^3.3",
+        "symfony/validator": "^3.3",
+        "symfony/config": "^3.3",
+        "doctrine/dbal": "~2.2",
+        "symfony/assetic-bundle": "^2.8",
+        "symfony/asset": "^3.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ItisCloudProject\\": "src"}
+    }
+}
